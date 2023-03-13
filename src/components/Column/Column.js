@@ -7,7 +7,7 @@ import { getFilteredCards } from '../../redux/store';
 const Column = props =>{
   const cards = useSelector(state => getFilteredCards(state, props.id));
 
-  return( 
+  return(
       <article>
         <h2 className={styles.title} title={props.title}>
           <span className={styles.icon + ' fa fa-' + props.icon} />
