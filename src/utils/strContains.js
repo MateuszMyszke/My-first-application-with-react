@@ -1,5 +1,5 @@
-function strContains(a, b) {
-  return a.toLowerCase().includes(b.toLowerCase());
+export const strContains = (strA, strB) => {
+  return strA.toLowerCase().includes(strB.toLowerCase());
 }
 
 export default strContains;
