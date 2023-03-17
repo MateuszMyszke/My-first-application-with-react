@@ -12,3 +12,14 @@
     font-weight: bold;
     color: $color-dark;
 }
+
+.button {
+    border: none;
+    cursor: pointer;
+    :hover {
+      transform: scale(120%);
+    }
+  }
+  .isActive {
+   color: $color-gold;
+  }
